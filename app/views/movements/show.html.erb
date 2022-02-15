@@ -1,0 +1,42 @@
+<p id="notice"><%= notice %></p>
+
+
+<div class="container-gray" style="width: 300px;">
+  <p>
+    <strong>Movement type:</strong>
+    <%= @movement.movement_type %>
+  </p>
+
+  <p>
+    <strong>Date:</strong>
+    <%= @movement.date %>
+  </p>
+
+  <p>
+    <strong>Time:</strong>
+    <%= @movement.time %>
+  </p>
+
+  <p>
+    <strong>Amount:</strong>
+    <%= @movement.amount %>
+  </p>
+
+  <p>
+    <strong>Description:</strong>
+    <%= @movement.description %>
+  </p>
+
+  <p>
+    <strong>Bill:</strong>
+    <%= @movement.bill.bill_type %>
+  </p>
+
+  <p>
+    <strong>Saldo:</strong>
+    <%= @movement.total_amount %>
+  </p>
+</div>
+
+<%= link_to 'Edit', edit_movement_path(@movement), class: 'btn btn-sm button-gray' %>
+<%= link_to 'Back', movements_path, class: 'btn btn-sm button-gray' %>

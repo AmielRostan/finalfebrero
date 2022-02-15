@@ -1,6 +1,6 @@
 require "test_helper"
 
-class PruebaTest < ActiveSupport::TestCase
+class MovementTest < ActiveSupport::TestCase
   # test "the truth" do
   #   assert true
   # end

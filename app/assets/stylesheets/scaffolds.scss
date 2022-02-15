@@ -8,6 +8,63 @@ h1 {
   text-transform: uppercase;
 }
 
+h2 {
+  color: #6C757D;
+  font-family: 'Raleway', sans-serif;
+  font-size: 30px;
+  font-weight: 800;
+  line-height: 36px;
+  margin: 0 0 24px;
+}
+
+h3 {
+  color: #6C757D;
+  font-family: 'Raleway', sans-serif;
+  font-size: 25px;
+  font-weight: 800;
+  line-height: 28px;
+  margin: 0 0 24px;
+}
+
+
+p { color: #6C757D; font-family: 'Raleway',sans-serif; font-size: 18px; font-weight: 500; line-height: 32px; margin: 0 0 24px; }
+
+
+a { color: #6C757D; text-decoration: underline; }
+
+
+a:hover { color: #1c1c1c; text-decoration: underline; }
+
+
+
+label {
+    font-weight: bold !important;
+}
+
+.form-field{
+  border-radius: 5px;
+  border: 0;
+  outline: none;
+  width: 100%;
+  padding-left: 1%;
+  margin-top: -15px;
+}
+
+.filter-field{
+  border-radius: 5px;
+  border: 0;
+  outline: none;
+  padding-left: 1%;
+  margin-top: -15px;
+}
+
+.container-gray{
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: rgba(200, 200, 200, .9);
+  padding: 5px;
+}
+
 .filterborders {
   border-radius: 16px;overflow:hidden;
   background-color: #FFC107;
